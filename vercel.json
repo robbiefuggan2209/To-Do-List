@@ -1,0 +1,10 @@
+{
+  "buildCommand": "NODE_OPTIONS=--openssl-legacy-provider ng build --configuration production",
+  "outputDirectory": "dist/weekly-planner",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
