@@ -1,6 +1,6 @@
 {
   "buildCommand": "NODE_OPTIONS=--openssl-legacy-provider ng build --configuration production",
-  "outputDirectory": "dist/weekly-planner",
+  "outputDirectory": "dist/To-Do-List",
   "rewrites": [
     {
       "source": "/(.*)",
